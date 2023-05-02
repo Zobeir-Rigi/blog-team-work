@@ -16,9 +16,9 @@ function App() {
       <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/write" element={user ? <Write /> : <Register />} /> */}
+        <Route path="/write" element={user ? <Write /> : <Register />} />
         <Route path="/login" element={<Login />} />
-        {/* <Route path="/register" element={user ? <Home /> : <Register />} /> */}
+        <Route path="/register" element={user ? <Home /> : <Register />} />
         {/* <Route path="/settings" element={user ? <Settings /> : <Register />} /> */}
         <Route path="/post/:postId" element={<Single />} />
       </Routes>
