@@ -1,7 +1,7 @@
 import Home from "./comp/Home";
-// import Write from "./comp/Write";
+import Write from "./comp/Write";
 // import Login from "./comp/Login";
-// import Register from "./comp/Register";
+import Register from "./comp/Register";
 // import Settings from "./comp/Settings";
 import Single from "./comp/Single";
 import TopBar from "./comp/TopBar";
@@ -10,15 +10,15 @@ import Login from "./comp/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  // const user = false;
+  const user = false;
   return (
-    <BrowserRouter>
-      <TopBar />
+    <BrowserRouter> 
+        <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/write" element={user ? <Write /> : <Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={user ? <Home /> : <Register />} />
+        {/* <Route path="/write" element={user ? <Write /> : <Register />} /> */}
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/register" element={user ? <Home /> : <Register />} /> */}
         {/* <Route path="/settings" element={user ? <Settings /> : <Register />} /> */}
         <Route path="/post/:postId" element={<Single />} />
       </Routes>

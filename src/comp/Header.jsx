@@ -5,12 +5,12 @@ const Header = () => {
     <div className="header">
       <div className="headerTitles">
         <span className="headerTitleSm">React & Node</span>
-        <span className="headerTitleLg">Blog</span>
+        {/* <span className="headerTitleLg">Blog</span> */}
       </div>
       <img
         className="headerImg"
         alt="headerImg"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWop6j2kofPG26zjQo76ayK7o87kf6Y1Iy6w&usqp=CAU"
+        src="https://img2.wallspic.com/crops/4/8/2/7/6/167284/167284-react_js-react-javascript-javascript_library-next_js-5184x3456.jpg"
       />
     </div>
   );
