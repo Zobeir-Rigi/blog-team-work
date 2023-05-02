@@ -6,7 +6,7 @@ const Post = () => {
       <img
         className="postImg"
         src="
-            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1MEXpIf4RePnwSvZ4Cs-mRjD99b5hQbETVQ&usqp=CAU"
+            https://www.theforage.com/blog/wp-content/uploads/2022/09/tech-companies.jpg"
         alt="postImg"
       />
       <div className="postInfo">

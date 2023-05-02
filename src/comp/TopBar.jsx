@@ -43,7 +43,7 @@ const TopBar = () => {
           <img
             className="topImg"
             alt="profileImg"
-            src="https://live.staticflickr.com/65535/52399136398_35c64ec6ba_h.jpg"
+            src="https://www.scientifique-en-chef.gouv.qc.ca/wp-content/uploads/SC_Francis_Fortin_militantisme_Anonymous-scaled.jpeg"
           />
         ) : (
           <ul className="topList">
