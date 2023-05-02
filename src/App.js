@@ -1,8 +1,8 @@
 import Home from "./comp/Home";
-import Write from "./comp/Write";
-import Login from "./comp/Login";
-import Register from "./comp/Register";
-import Settings from "./comp/Settings";
+// import Write from "./comp/Write";
+// import Login from "./comp/Login";
+// import Register from "./comp/Register";
+// import Settings from "./comp/Settings";
 import Single from "./comp/Single";
 import TopBar from "./comp/TopBar";
 
