@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import "../styles/Post.css"
 
-const Post = () => {
+const Post = ({img}) => {
   return (
     <div className="post">
       <Link className="link" to="/Single">
         <img
           className="postImg"
-          src="
-            https://www.theforage.com/blog/wp-content/uploads/2022/09/tech-companies.jpg"
+          src={img}
           alt="postImg"
         />
         <div className="postInfo">
