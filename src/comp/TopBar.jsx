@@ -34,7 +34,9 @@ const TopBar = () => {
               Write
             </Link>
           </li>
-          <li className="topListItem">Login</li>
+          <li className="topListItem">
+            <Link className="link" to="/Login">Login</Link>
+          </li>
         </ul>
       </div>
       <div className="topRight">

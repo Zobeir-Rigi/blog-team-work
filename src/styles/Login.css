@@ -1,5 +1,4 @@
 .login {
-<<<<<<< HEAD
   background-color: teal;
   height: calc(100vh - 50px);
   display: flex;
@@ -49,7 +48,6 @@
    border-radius: 7px;
    padding: 10px;
    color: white;
-=======
     height: calc(100vh -50px);
     display: flex;
     flex-direction: column;
@@ -99,5 +97,4 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
->>>>>>> 0fcec47104d84180ab84f20f288773d9d3d2eb73
 }

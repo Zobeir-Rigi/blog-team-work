@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import "../styles/Login.css";
 
@@ -30,38 +29,4 @@ const Login = () => {
   );
 };
 
-export default Login;
-=======
-import React from 'react';
-import "../styles/Login.css";
-
-function Login() {
-  return (
-    <div className="login">
-      <span className="loginTitle"></span>
-      <form action="" className="loginForm">
-        <label htmlFor="email">Email</label>
-        <input
-          type="text"
-          className="loginInput"
-          placeholder="Enter your email..."
-          id="email"
-        />
-
-        <label htmlFor="password">Email</label>
-        <input
-          type="text"
-          className="loginInput"
-          placeholder="Enter your password..."
-          id="password"
-        />
-
-        <button className="loginButton">Login</button>
-      </form>
-      <button className="loginRegisterButton"></button>
-    </div>
-  );
-}
-
 export default Login
->>>>>>> 0fcec47104d84180ab84f20f288773d9d3d2eb73
