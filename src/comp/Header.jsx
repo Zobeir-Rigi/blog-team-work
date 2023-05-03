@@ -10,7 +10,7 @@ const Header = () => {
       <img
         className="headerImg"
         alt="headerImg"
-        src="https://img2.wallspic.com/crops/4/8/2/7/6/167284/167284-react_js-react-javascript-javascript_library-next_js-5184x3456.jpg"
+        src="https://images.pexels.com/photos/635279/pexels-photo-635279.jpeg?auto=compress&cs=tinysrgb&w=1200"
       />
     </div>
   );
