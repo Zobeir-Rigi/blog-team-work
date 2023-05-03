@@ -29,3 +29,28 @@
   margin-top: 80px;
   object-fit: cover;
 }
+
+
+ @media (max-width: 768px) {
+.headerTitleSm {
+top: 10%;
+font-size: 16px;
+}
+
+.headerTitleLg {
+top: 12%;
+font-size: 60px;
+}
+
+.headerImg {
+height: 300px;
+margin-top: 40px;
+width: 100%;
+}
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+} 
+
