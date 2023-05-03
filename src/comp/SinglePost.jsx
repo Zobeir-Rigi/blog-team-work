@@ -5,7 +5,7 @@ function SinglePost() {
     <div className="SinglePost">
       <div className="singlePostWrapper">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpG-rJR3So5JPai5tKZLMdHkTZD2YdEksAw&usqp=CAU"
+          src="https://www.theforage.com/blog/wp-content/uploads/2022/09/tech-companies.jpg"
           alt=""
           className="singlePostImg"
         />
@@ -18,7 +18,7 @@ function SinglePost() {
         </h1>
         <div className="singlePostinfo">
           <span className="singlePostAuthor">
-            Author: <b>Zobeir</b>
+            Author: <b>Team-Work</b>
           </span>
           <span className="singlePostAuthor">1 hour ago</span>
         </div>
