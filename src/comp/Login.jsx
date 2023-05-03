@@ -18,7 +18,7 @@ const Login = () => {
           type="password"
           placeholder="Enter you'r password..."
         />
-        <button className="loginButton">Login</button>
+        <button type="submit" className="loginButton">Login</button>
       </form>
       <button className="loginRegisterButton">
         <Link className="link" to="/register">
