@@ -5,14 +5,16 @@ import Register from "./comp/Register";
 import Settings from "./comp/Settings";
 import Single from "./comp/Single";
 import TopBar from "./comp/TopBar";
+import React from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   const user = false;
   return (
-    <BrowserRouter> 
-        <TopBar />
+    <BrowserRouter>
+      <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/write" element={user ? <Write /> : <Register />} />
