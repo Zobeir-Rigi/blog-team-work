@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "../styles/TopBar.css";
-import React from "react";
 
 const TopBar = () => {
   const user = false;
@@ -35,12 +34,14 @@ const TopBar = () => {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/Login">Login</Link>
+            <Link className="link" to="/Login">
+              Login
+            </Link>
           </li>
         </ul>
       </div>
       <div className="topRight">
-        {/* we want to say if there is a user show the profile pic otherwaise show login and register pages*/}
+        {/* we want to say if there is a user show the profile pic otherwise show login and register pages*/}
         {user ? (
           <img
             className="topImg"
@@ -68,3 +69,6 @@ const TopBar = () => {
 };
 
 export default TopBar;
+
+
+
